@@ -1,0 +1,6 @@
+IAM - Identity and Access Management (Global Service)
+We create users and assign them a group.
+
+Why do we create users and why do we create groups : because we want to allow them to use our AWS accounts and to allow them to do so we need to give them permissions.
+
+Inline policies - policy which is only attached to a user, so that a user could or could not belong to a group, we can have inline policies for whatever user you want.
