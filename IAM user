@@ -1,0 +1,3 @@
+IAM user is assigned to the group. and it has access to all the permissions of that group. For example if a user is added in a group with alladmin access, user is able to access all the permissions regarding that.
+
+When we create an IAM User we download one credentials file containing password etc.
