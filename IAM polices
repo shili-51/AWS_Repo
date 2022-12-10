@@ -1,0 +1,21 @@
+IAM polices will have : They are in the form of json document.
+
+ID - identifier for the policy
+Version - policy language version
+Statement - consists of various statements like
+
+SID - identifier for the statement
+
+Effect - whether statement allows or denies the access
+
+Principal - account or user or role to which this policy is applied to
+
+Action - list of actions this policy allows or denies
+for example - s3.GetObject, s3.PutObject
+
+Resource - list of resources to which the actions applied to
+
+Condition (Optional) - conditions for when this policy is in effect.
+
+
+
