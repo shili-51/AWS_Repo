@@ -1,4 +1,5 @@
-IAM polices will have : They are in the form of json document.
+IAM polices will have : They are in the form of json document. This is describing in plane english what a user is allowed to do or what a group and all the users within than
+group are allowed to do
 
 ID - identifier for the policy
 Version - policy language version
