@@ -6,3 +6,6 @@ Why do we create users and why do we create groups : because we want to allow th
 Users and Groups are assigned json documents called polices
 
 Inline policies - policy which is only attached to a user, so that a user could or could not belong to a group, we can have inline policies for whatever user you want.
+
+
+
