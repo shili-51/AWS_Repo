@@ -1,0 +1,7 @@
+Suppose we create an EC2 instance (virtual server). This EC2 instance may want to perform some actions on AWS. and 
+to do so we need to give permissions to our EC2 instance. To do so we are going to create 
+IAM role and together IAM role and EC2 instance will make one entity.
+So if an EC2 instance is trying to gather some information from AWS account then it will use the IAM Role.
+And if the permission assigned to the IAM role is correct, then we are going to get the access for the call we are trying to make.
+
+Role allow entities in the AWS to get credentials for short duration and do whatever they need to do.
