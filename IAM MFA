@@ -1,0 +1,10 @@
+To protect users and groups from being compromised for this we have 2 defence mechanism.
+
+1) IAM password policy
+2) Multi factor Authentication - to protect your root account and the IAM users
+
+Multi factor authentication - password you know and the security device you own (like the phone we use to login)
+
+Authy - support for multiple token on a single device.
+
+When we enable MFA we can access our AWS account only at one device at a time.
