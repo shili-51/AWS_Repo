@@ -1,0 +1,19 @@
+Users can use AWS. There are 3 ways:
+
+AWS Management Console - protected by Username or password or may be MFA
+
+AWS Command line interface - protected by access keys(credentials we can download) that would allow us to use AWS through the terminal.
+
+AWS SDk - this is used whenever we want to call API from AWS within your application code and these will be protected by access keys.
+
+Dont share access key and secret access key with anyone.
+
+When access key and secret access key are loaded in command line interface would allow me to access the AWS API.
+
+
+AWS SDK - 
+ boto3, the AWS SDK for Python. Boto3 makes it easy to integrate your Python application, library, or script with AWS services including Amazon S3, Amazon EC2, Amazon DynamoDB, and more.
+ AWS CLI is build on AWS SDK for python.
+ 
+ 
+ Never use root account to create security credentials.
