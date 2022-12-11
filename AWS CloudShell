@@ -1,0 +1,13 @@
+AWS Cloudshell is a terminal in the cloud of AWS that is free to use.
+AWS Cloudshell is only available in only some of the regions.
+
+AWS Cloudshell default region would be the region in whcih you are logged in currently.
+
+if we write the command echo "test" > demo.txt - it will create a txt file containing the text "test"
+
+cat demo.txt - cat command displays the contents of one or more files without having to open the file for editing.
+output - test 
+
+pwd - full path of file
+
+Cloudshell allows uploading and downloading of the files and also it can open other terminal side by side if required.
