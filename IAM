@@ -8,4 +8,5 @@ Users and Groups are assigned json documents called polices
 Inline policies - policy which is only attached to a user, so that a user could or could not belong to a group, we can have inline policies for whatever user you want.
 
 
+AWS infrastructure is the responsibility of AWS shared responsibility model.
 
