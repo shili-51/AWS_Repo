@@ -1,0 +1,6 @@
+AWS Credentials Report 
+This report is really helpful if you want to look at some users that have not been changing passwords or using it.
+It is a great way to find which users that deserve your attention from security standpoint.
+
+AWS Access Advisor - this will tell when which services have been last used.
+We can remove access to certain services which are not used for a good period of time based on the usage of that user.
