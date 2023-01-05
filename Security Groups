@@ -1,0 +1,8 @@
+Security Groups are firewalls and they decide from which port inbound traffic is allowed or denied.
+
+One security group cane be attached to multiple instances.
+Also one instance can have multiple security groups.
+
+If you switch from one region to other or we create a new VPC then we have to make recreate new security groups.
+
+Security groups lives outside the EC2 instance - if traffic is blocked the EC2 instance won't see it.
