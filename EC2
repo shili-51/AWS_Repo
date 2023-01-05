@@ -1,0 +1,9 @@
+When we stop EC2 instance and start it again then Public IPv4 address will change but private IPv4 will not change.
+
+While creating a key pair value for logging into instance use .ppk if you are using windows 7 or earlier version of windows etc use .pem.
+
+While creating an instance you can choose the number of CPUs, memory (hardware or EBS) , bandwidth, Operating System etc as per requiremnt and set your instance privately and you dont need to own any hardware etc to setup an instance.
+
+There are 7 different types of EC2 instances and each type of instance has different families.
+
+More the size of instance, more the CPU , more the memory you will have for EC2
