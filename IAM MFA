@@ -8,3 +8,5 @@ Multi factor authentication - password you know and the security device you own 
 Authy - support for multiple token on a single device.
 
 When we enable MFA we can access our AWS account only at one device at a time.
+
+After etting login into AWS account through MFA, dont use MFA device because it will log you out of the AWS Account.
