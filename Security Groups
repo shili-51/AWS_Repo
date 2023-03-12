@@ -6,3 +6,14 @@ Also one instance can have multiple security groups.
 If you switch from one region to other or we create a new VPC then we have to make recreate new security groups.
 
 Security groups lives outside the EC2 instance - if traffic is blocked the EC2 instance won't see it.
+
+Security Groups act as firewall to inbound and outbound traffic.
+
+Security groups are locked down to a region, if you switch the region you need to create different security groups
+
+These live outside the EC2 Instance, if traffic is blocked by security group then EC2 Instance wont be able to see it.
+
+Anytime we encounter any time out issue, it keeps trying to connect but it doesn't succeed and then it eventually fails calling time out, if you see time out when 
+establishing any kind of connection into your EC2 instances like we are trying to SSH into it, we are trying to HTTP into it, still getting timeout issue, this is 
+beacuse of EC2 Security Group. In this case go to EC2 Security Group rules and make sure that they are correct, because if they are not correct they will give timeout 
+error.
