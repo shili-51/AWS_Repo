@@ -15,3 +15,6 @@ Compute Optimized EC2 Instance - great for compute-intensive tasks that require 
 Memory Optimized EC2 Instances - fast performance for workloads that process large data sets in memory.
 
 Storage Optimized EC2 Instances - great for storage-intensive tasks that require high, sequential read and write access to large sets on local storage.
+
+If we need to provide AWS credentials to EC2 instance, we provide these credentials through IAM Role. We go on action > Security > Modify IAM Role, then we choose our IAM Role,
+and save and hence our IAM role would be attached to EC2 instance.
