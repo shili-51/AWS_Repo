@@ -1,0 +1,4 @@
+If you want to attach EBS volumne to EC2 instance in order to save the instance data after its termination, we need to create EBS volumne in same availability zone
+as EC2 instance and attach that to EC2 instance.
+
+We can attach multiple EBS volumns to EC2 Instance. (Need to Confirm)
