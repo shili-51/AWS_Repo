@@ -13,3 +13,12 @@ If you find that your application can only be accessed within one, two or three 
 Network Load Balancer has a one fixed IP address per availability zone where we are deploying Load balancer.
 
 Target group contains group of EC2 instances whom load balancer want to use or target for distributing traffic.
+
+When you use a network load balancer, we don't define a security group for it, that means all the traffic goes through the network load balancer and goes straight into
+the EC2 instances and these security groups of EC2 instance decide whether or not the traffic is allowed into EC2 instance.
+
+Gateway load balancer diagram understanding important.
+
+Geneve Protocol - Gateway Load Balancer
+
+
