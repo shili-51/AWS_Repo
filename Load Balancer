@@ -1,0 +1,10 @@
+Load Balancer has health checks performed on EC2 instance in order to ensure that whether the traffic can be sent to a particular EC2 instance or not. For user, Load balancer
+acts as one end point of connectivity only.Then load balancer spreads load from users to multiple downstream EC2 instances.
+
+Health check is done on a port and route.
+
+
+Load Balancer allows traffic from Users from anywhere that source of Security group of load balancer is set to IP - 0.0.0.0/0
+
+And the source of security group of EC2 instance is set to sg of load balancer so that EC2 instance only allows traffic if the traffic originates from Load Balancer,
+which is enhanced security mechanism.
