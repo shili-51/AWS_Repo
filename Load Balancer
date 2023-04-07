@@ -21,4 +21,7 @@ Gateway load balancer diagram understanding important.
 
 Geneve Protocol - Gateway Load Balancer
 
+Elastic Load Balancer - ALB is going to redirect the traffic evenly across all the registered EC2 instances regardless of which availability zones they are in, this is why its called cross zone
+load balancing.
+
 
