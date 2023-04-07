@@ -9,3 +9,7 @@ And the source of security group of EC2 instance is set to sg of load balancer s
 which is enhanced security mechanism.
 
 If you find that your application can only be accessed within one, two or three different IPs, then you need to think about Network load balancer as an option.
+
+Network Load Balancer has a one fixed IP address per availability zone where we are deploying Load balancer.
+
+Target group contains group of EC2 instances whom load balancer want to use or target for distributing traffic.
