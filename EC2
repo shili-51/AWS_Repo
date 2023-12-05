@@ -10,7 +10,7 @@ More the size of instance, more the CPU , more the memory you will have for EC2.
 
 General Purpose EC2 Instance - ideal for applications that use compute, memory and networing resources in equal proportions such as web servers and code repositories.
 
-Compute Optimized EC2 Instance - great for compute-intensive tasks that require high performance processors. Ideal for compute bound applications that benefir from high performance processors.
+Compute Optimized EC2 Instance - great for compute-intensive tasks that require high performance processors. Ideal for compute bound applications that benefit from high performance processors.
 
 Memory Optimized EC2 Instances - fast performance for workloads that process large data sets in memory.
 
